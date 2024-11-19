@@ -9,7 +9,7 @@ export interface IOffer {
   newDeliveryDate: string;
   accepted: boolean;
   cancelled: boolean;
-  reason?: string; // this is the reason for extending the delivery date
+  reason?: string; 
 }
 
 export interface IExtendedDelivery {

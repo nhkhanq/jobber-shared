@@ -1,8 +1,8 @@
 {
-  "version": "0.0.11",
+  "version": "0.1.1",
   "license": "MIT",
   "main": "index.js",
-  "description": "Helpers library for Jobber app",
+  "description": "Helpers library",
   "engines": {
     "node": ">=20"
   },
@@ -18,15 +18,15 @@
     "trailingComma": "es5"
   },
   "keywords": [],
-  "name": "@nhkhanq/jobber-shared",
+  "name": "@nhkhanq/jobber",
   "author": "",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nhkhanq/jobber-shared.git"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
-  },
+  "registry": "https://registry.npmjs.org/"
+},
   "files": [
     "build",
     "src"
