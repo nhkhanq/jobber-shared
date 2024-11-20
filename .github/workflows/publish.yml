@@ -14,20 +14,16 @@ jobs:
       packages: write
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-node@v3
+      - uses: actions/setup-node@v4
         with:
           node-version: '20.x'
 
-      # Install dependencies
       - run: npm install
 
-      # Build package
       - run: npm run build
 
-      # Configure .npmrc for GitHub Package Registry
       - run: |
           echo "@nhkhanq:registry=https://npm.pkg.github.com/" > ~/.npmrc
-          echo '//npm.pkg.github.com/:_authToken=${{ secrets.NPM_TOKEN }}' >> ~/.npmrc
+          echo "//npm.pkg.github.com/:_authToken=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" >> ~/.npmrc
 
-      # Publish package
       - run: npm publish
