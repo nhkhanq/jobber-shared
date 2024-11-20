@@ -1,7 +1,6 @@
 {
   "version": "0.1.2",
   "license": "MIT",
-  "main": "index.js",
   "description": "Helpers library",
   "engines": {
     "node": ">=20"
@@ -18,14 +17,14 @@
     "trailingComma": "es5"
   },
   "keywords": [],
-  "name": "@nhkhanq/jobber",
+  "name": "@nhkhanq/jobber-shared-for-hkhanq",
   "author": "",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nhkhanq/jobber-shared.git"
   },
   "publishConfig": {
-  "registry": "https://npm.pkg.github.com/"
+  "registry": "https://registry.npmjs.org/"
 },
   "files": [
     "build",
